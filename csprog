@@ -1,0 +1,47 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Czech keyboard for programmers. Default US layout + all diacritics with GrAlt
+//
+// Generated keyboard layout file with the Keyboard Layout Editor.
+// For more about the software, see http://code.google.com/p/keyboardlayouteditor
+//
+
+default  partial alphanumeric_keys
+xkb_symbols "basic"
+{
+	name[Group1] = "English US, AltGr for Czech symbols";
+	include "us(basic)"
+#	include "latin"
+	key <AB01> { [       NoSymbol,       NoSymbol,         zcaron,         Zcaron ] }; //   ž Ž 
+	key <AB03> { [       NoSymbol,       NoSymbol,         ccaron,         Ccaron ] }; //   č Č 
+	key <AB06> { [       NoSymbol,       NoSymbol,         ncaron,         Ncaron ] }; //   ň Ň 
+	key <AB08> { [          comma,           less,          U0327,          U030C ] }; // , < ̧ ̌ 
+	key <AB09> { [         period,        greater,          U0307,          U030C ] }; // . > ̇ ̌ 
+	key <AB10> { [          slash,       question,   questiondown,          U0309 ] }; // / ? ¿ ̉ 
+	key <AC01> { [       NoSymbol,       NoSymbol,         aacute,         Aacute ] }; //   á Á 
+	key <AC02> { [       NoSymbol,       NoSymbol,         scaron,         Scaron ] }; //   š Š 
+	key <AC03> { [       NoSymbol,       NoSymbol,         dcaron,         Dcaron ] }; //   ď Ď 
+	key <AC10> { [      semicolon,          colon,          uring,          Uring ] }; // ; : ů  
+	key <AC11> { [     apostrophe,       quotedbl,          U0301,          U0308 ] }; // ' " ́ ̈ 
+	key <AD03> { [       NoSymbol,       NoSymbol,         eacute,         Eacute ] }; //   é É 
+	key <AD04> { [       NoSymbol,       NoSymbol,         rcaron,         Rcaron ] }; //   ř Ř 
+	key <AD05> { [       NoSymbol,       NoSymbol,         tcaron,         Tcaron ] }; //   ť Ť 
+	key <AD06> { [       NoSymbol,       NoSymbol,         yacute,         Yacute ] }; //   ý Ý 
+	key <AD07> { [       NoSymbol,       NoSymbol,         uacute,         Uacute ] }; //   ú  
+	key <AD08> { [       NoSymbol,       NoSymbol,         iacute,         Iacute ] }; //   í Í 
+	key <AD09> { [       NoSymbol,       NoSymbol,         oacute,         Oacute ] }; //   ó Ó 
+	key <AE02> { [           KP_2,             at,          U0115,          U0114 ] }; // 2 @ ĕ Ĕ 
+	key <AE03> { [           KP_3,     numbersign,  threesuperior,          U0304 ] }; // 3 # ³ ̄ 
+	key <AE06> { [           KP_6,    asciicircum,     onequarter,          U0302 ] }; // 6 ^ ¼ ̂ 
+	key <AE07> { [           KP_7,      ampersand,        onehalf,          U031B ] }; // 7 & ½ ̛ 
+	key <AE08> { [           KP_8,       asterisk,  threequarters,          U0328 ] }; // 8 * ¾ ̨ 
+	key <AE09> { [           KP_9,      parenleft, leftsinglequotemark,          U0306 ] }; // 9 ( ‘ ̆ 
+	key <AE10> { [           KP_0,     parenright, rightsinglequotemark,          U030A ] }; // 0 ) ’ ̊ 
+	key <AE11> { [          minus,     underscore,            yen,          U0323 ] }; // - _ ¥ ̣ 
+	key <AE12> { [          equal,           plus,          U030B,          U031B ] }; // = + ̋ ̛ 
+	key <TLDE> { [          grave,     asciitilde,          U0300,          U0303 ] }; // ` ~ ̀ ̃ 
+	
+	include "level3(ralt_switch)"
+	include "compose(rctrl)"
+};
+
