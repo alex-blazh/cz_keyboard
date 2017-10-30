@@ -10,7 +10,7 @@ Default US keyboard with all Czech diacritic characters with GrAlt
 copy scprog to /usr/share/X11/xkb/symbols
 
 ```shell
-sudo cp ./scprog /usr/share/X11/xkb/symbols
+sudo cp ./csprog /usr/share/X11/xkb/symbols
 ```
 
 Add next code to "/usr/share/X11/xkb/rules/evdev.xml", put it into tag "layoutlist".
