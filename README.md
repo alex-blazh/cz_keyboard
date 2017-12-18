@@ -18,7 +18,7 @@ Add next code to "/usr/share/X11/xkb/rules/evdev.xml", put it into tag "layoutli
 <layout>
     <configItem>
         <name>csprog</name>
-        <shortDescription>en_cs</shortDescription>
+        <shortDescription>en</shortDescription>
         <description>English US, AltGr for Czech symbols</description>
         <languageList>
             <iso639Id>eng</iso639Id>
