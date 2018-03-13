@@ -26,7 +26,7 @@ xkb_symbols "basic"
 	key <AD07> { [       NoSymbol,       NoSymbol,         uacute,         Uacute ] }; //   ú Ú
 	key <AD08> { [       NoSymbol,       NoSymbol,         iacute,         Iacute ] }; //   í Í 
 	key <AD09> { [       NoSymbol,       NoSymbol,         oacute,         Oacute ] }; //   ó Ó 
-	key <AE02> { [       NoSymbol,       NoSymbol,          U0115,          U0114 ] }; //   ĕ Ĕ
+	key <AE02> { [       NoSymbol,       NoSymbol,          U011B,          U011A ] }; //   ĕ Ĕ
 
 	include "level3(ralt_switch)"
 	include "compose(rctrl)"
